@@ -1,11 +1,6 @@
 % SETUP_AS
 
 clear all
-
-% ############### USER-DEFINED ACTIVE SUSPENSION CONFIGURATION ###############
-%CONTROL TYPE CAN BE SET TO 'AUTO' OR 'MANUAL'. 
-CONTROL_TYPE = 'AUTO';
-
 % ###############MODEL PARAMETERS###############
 
 ks = 900;% or 1040 Suspension Stiffness (N/m) 
