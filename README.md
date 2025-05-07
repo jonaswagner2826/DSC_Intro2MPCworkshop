@@ -24,15 +24,13 @@ See the QUARC document [docs\Active Suspension - Laboratory Guide.pdf](docs/Acti
 
 ### Simulation
 1. Open [matlab\mpc_Sim.mlx](matlab\mpc_Sim.mlx) and enter in the model matrices
-2. Test the open loop model simulation and observe the results
-   - Does the plot make sense? What does each subplot represent?
-   - What is the impact of disturbances? What does that represent?
-3. Implement and tune a PD controller to improve the disturbance response
-   - How were the selected gains obtained? 
-   - Did you use some design process or just tune using a rule of thumb and tune?
-4. Implement an MPC controller by designing weight matrices. 
+2. Implement an MPC controller by designing weight matrices. 
 (Hint: use diag([w_1,w_2,w_3,w_4]); to create weight matrices)
    - What does setting each weight mean?
+   - How might you prioritize minimizing the impact of a bump felt by an occupant?
+3. Test the simulation and observe the results (save and share the plots)
+   - Does the plot make sense? What does each subplot represent?
+   - What is the impact of disturbances? What does that represent?
 
 ### Experimental
 1. Open [matlab\setup_as.m](matlab\setup_as.m) and enter selected MPC weight matrices from simulation
