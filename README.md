@@ -9,7 +9,7 @@
 See the powerpoint for information on the basics of MPC
 
 ### Active Suspension System Modeling
-See the document [docs\Active Suspension - Laboratory Guide.pdf]() for derivation of the model and implementation of an LQR controller (aka an infinite/steady-state MPC controller).
+See the document [docs\Active Suspension - Laboratory Guide.pdf](<docs\Active Suspension - Laboratory Guide.pdf>) for derivation of the model and implementation of an LQR controller (aka an infinite/steady-state MPC controller).
 
 1. Write out the state-space model for the system.
    - What are the states, inputs, and outputs of the system?
@@ -22,7 +22,7 @@ See the document [docs\Active Suspension - Laboratory Guide.pdf]() for derivatio
       (Hint: Using $\dot{x}_{2}$ instead of $y_2$ is equivalent when $u_1$ is centered around 0 and eliminates feed-forward terms.)
 
 ### Simulation
-1. Open [matlab\mpc_Sim.mlx]() and enter in the model matrices
+1. Open [matlab\mpc_Sim.mlx](matlab\mpc_Sim.mlx) and enter in the model matrices
 2. Test the open loop model simulation and observe the results
    - Does the plot make sense? What does each subplot represent?
    - What is the impact of disturbances? What does that represent?
@@ -34,8 +34,8 @@ See the document [docs\Active Suspension - Laboratory Guide.pdf]() for derivatio
    - What does setting each weight mean?
 
 ### Experimental
-1. Open [matlab\setup_as.m]() and enter selected MPC weight matrices from simulation
-2. Open [matlab\q_as_mpc.slx]() then follow QUARC steps to build and connect to the Active Suspension System
+1. Open [matlab\setup_as.m](matlab\setup_as.m) and enter selected MPC weight matrices from simulation
+2. Open [matlab\q_as_mpc.slx](matlab\q_as_mpc.slx) then follow QUARC steps to build and connect to the Active Suspension System
 3. Experiment with different weights to observe the response.
    - How might you prioritize minimizing the impact of a bump felt by an occupant?
 4. Directly compare the MPC results with the LQR controller with the same weights.
