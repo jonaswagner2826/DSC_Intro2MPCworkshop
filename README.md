@@ -1,5 +1,5 @@
 # Intro To Model Predictive Control - DSC Workshop
-Event Details
+### Event Details
 - **Location:** ECSW 3.325 (Systems and Controls Lab)
 - **Time:** Friday 2025-05-02 @ 14:00-16:00
 - **Organizers:** Juned Shaikh and Michael Lingad
