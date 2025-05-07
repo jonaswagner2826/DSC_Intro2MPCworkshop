@@ -40,7 +40,7 @@ See the QUARC document [docs\Active Suspension - Laboratory Guide.pdf](docs/Acti
 3. Experiment with different weights to observe the response.
    - How might you prioritize minimizing the impact of a bump felt by an occupant?
 4. Directly compare the MPC results with the LQR controller with the same weights.
-   - How does this impact the response of 
+   - How does this impact the response? Is it noticible on the physical system?
 
 ## (Bonus) Frequency Response Analysis
 1. Theory: Create bode plots for the open loop and closed-loop (w/ LQR) responses.
