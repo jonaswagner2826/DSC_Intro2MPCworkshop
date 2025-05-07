@@ -9,7 +9,7 @@
 See the powerpoint for information on the basics of MPC
 
 ### Active Suspension System Modeling
-See the document [docs\Active Suspension - Laboratory Guide.pdf](<docs\Active Suspension - Laboratory Guide.pdf>) for derivation of the model and implementation of an LQR controller (aka an infinite/steady-state MPC controller).
+See the document [docs\Active Suspension - Laboratory Guide.pdf](docs/Active%20Suspension%20-%20Laboratory%20Guide.pdf) for derivation of the model and implementation of an LQR controller (aka an infinite/steady-state MPC controller).
 
 1. Write out the state-space model for the system.
    - What are the states, inputs, and outputs of the system?
